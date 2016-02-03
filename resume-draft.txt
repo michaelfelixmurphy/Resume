@@ -1,0 +1,113 @@
+Contact:
+  Michael J. Murphy
+
+  2537 Clubhouse Drive
+  Wexford, PA 15090
+
+  Carnegie Mellon University
+  SMC 3373
+  Pittsburgh, PA 15289
+
+  (724) 713-9797
+  mjmurphy@cmu.edu
+
+Objective:
+  A summer internship utilizing my programming skills, robotics experience,
+  strong academic background, and broad interests in theory, programming
+  languages, robotics, and education.
+
+Hackathons:
+  Apple iOS Challenge Fall 2014
+  Algorithms with a Purpose Fall 2014
+
+Puzzlehunts:
+  Palantir Fall 2014 - 3rd place
+  CMU Puzzlehunt Fall 2014
+
+Education:
+  Carnegie Mellon University
+  Pittsburgh, PA
+  Bachelors of Science in Computer Science
+  May 2017
+  QPA: 3.8
+  School of Computer Science Dean's List, Spring 2014
+
+  North Allegheny Senior High School
+  Wexford, PA
+  High School Diploma
+  QPA: 4.3
+
+Selected Coursework:
+  15-251 Great Theoretical Ideas in Computer Science (Spring 2014)
+  15-210 Parallel and Sequential Data Structures and Algorithms (Fall 2014)
+  15-150 Principles of Functional Programming (Spring 2014)
+  15-122 Principles of Imperative Computation (Fall 2013)
+  15-151 Mathematical Foundations for Computer Science (Fall 2013)
+  73-230 Intermediate Microeconomics (Fall 2013)
+  82-222 Intermediate German II (Spring 2014)
+  15-221 Technical Communications for Computer Scientists (Fall 2014)
+  21-241 Matrices and Linear Transformations (Fall 2014)
+  15-213 Introduction to Computer Systems (Planned Spring 2015)
+  15-214 Software Engineering (Planned Spring 2015)
+  15-312 Programming Languages (Planned Spring 2015)
+
+Skills:
+  Languages: Python, Java, SML, C, JavaScript, HTML, LaTeX
+  Libraries: ROS, Django, Bootstrap, Qt
+  Strong knowledge of bash/Unix
+  Conversant in German
+
+Teaching Experience:
+  CMU Academic Development, Pittsburgh, PA
+  Peer Tutor, Spring 2014-present
+    Assisted with homework and clarified course material on a weekly basis
+
+  School of Computer Science, Pittsburgh, PA
+  Teaching Assistant, 15-110 Principles of Computing, Summer 2014
+    Prepared and gave 5-10 minute lecture daily lecture on introductory
+      computer science topics
+    Taught daily lab section of about 30 students
+    Held daily office hours
+    Assisted with development of course structure
+  Teaching Assistant, 15-122 Principles of Imperative Computation, Fall 2014
+    Taught weekly lab sections of about 30 students
+    Held weekly office hours
+    Assisted students with their first material on data structures and algorithms
+  Teaching Assistant, 15-131 Great Practical Ideas in Computer Science, Fall 2014
+    Periodically lectured to about 90 freshmen on bash, text editors, and other
+      practical tools for computer scientists
+    Held weekly office hours
+    Assisted with development of course structure and infrastructure
+
+Research Experience:
+  CORAL Research Group, Pittsburgh, PA
+  Student Researcher
+    Worked under Professor Manuela Veloso
+
+  Projects
+    Robot UI, Summer, 2013
+      Designed and coded a new UI for the CoBot mobile service robots using
+        ROS
+      Implemented in a linux touch interface using Python and Qt
+      Gained experience working with large foreign code bases and using third
+        party libraries
+    Robot Log Explorer Site, Summer 2013
+      Created a website to present logs from CoBot mobile service robots in a
+        human readable form
+      Implemented a script to parse log data into a database
+      Designed a website using this database to search logs across many
+      categories including coordinates visited, and to display and graph the
+        results
+      Gained experience picking up new languages and tools, adapting to
+        tough technical challenges, and creating custom algorithms
+    Quadcopter Mobile Service Robot, Fall 2014
+      Working to adapt the existing grounded CoBot mobile service robots to a
+        new quadcopter platform
+      Researching the how this can be done with maximal code reuse and the
+        issues which arise when migrating robots to a new physical platform
+
+Previous Employment
+  Oncology Nursing Society Publishing Department, Pittsburgh, PA
+  Intern, Summer 2011, Summer 2012
+    Processed manuscripts to be published in the Clinical Journal of Oncology
+      Nursing and Oncology Nursing Forum

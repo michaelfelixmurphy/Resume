@@ -1,0 +1,174 @@
+%-----------------------------------------
+% Template Author
+% Michael Wright
+%
+% URL: http://github.com/mdwrigh2/resume
+% This document is covered under the Creative Commons Attribution 3.0 Unported License
+%-----------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt,letterpaper,sans,final]{moderncv}
+\usepackage{fontspec}
+\moderncvtheme[blue]{classic}
+
+% Set percent of page to use and top and bottom margins
+\usepackage[scale=0.8, top=.6in, bottom=.4in]{geometry}
+% For ensuring 1 in margin:
+%\usepackage[left=1in, right=.9in, top=.5in, bottom=.4in]{geometry}
+
+\setlength{\hintscolumnwidth}{2cm} % Shrinks width of left column
+\AtBeginDocument{\recomputelengths}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+
+% Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\defaultfontfeatures{Mapping=tex-text}
+
+% Sets symbol for list items
+\renewcommand{\listitemsymbol}{-}
+
+% Suppress automatic page numbering
+\nopagenumbers{}
+
+%------------------------------------------
+
+% Personal Information
+\name{Michael James}{Murphy}
+%\address{2537 Clubhouse Drive}{Wexford, PA 15090}
+%\address{Carnegie Mellon University SMC 3373}{Pittsburgh, PA 15289}
+\phone[mobile]{(724) 713-9797}
+\email{mjmurphy@cmu.edu}
+%\homepage{}
+
+%\title{Michael J Murphy's Resume}
+
+%------------------------------------------
+
+\begin{document}
+
+\makecvtitle
+
+\vspace*{-1\baselineskip}
+
+%\cvitem{\textbf{Objective:}}{A summer internship utilizing my programming skills,
+%robotics experience, strong academic background, and broad interests in theory,
+%programming languages, robotics, and education.}
+
+\section{Education}
+  \href{http://coursecatalog.web.cmu.edu/schoolofcomputerscience/#curriculum-b.s.incomputerscience}
+  {
+    \cventry{May 2017}{Carnegie Mellon University}{Pittsburgh, PA}{QPA: 3.53}{}
+      {Bachelors of Science in Computer Science, Minor in Music Technology}
+    \cvline{Selected Coursework:}{
+            Compiler Design,
+            Machine Learning,
+            Foundations of Programming Languages,
+            Introduction to Computer Music,
+            Probability and Computing,
+            %Introduction to Computer Systems,
+            Great Theoretical Ideas in Computer Science,
+            Parallel and Sequential Data Structures and Algorithms
+            %Principles of Functional Programming,
+            %Principles of Imperative Computation
+            }
+  }
+%  \cventry{June 2013}{North Allegheny Senior High School}{Wexford, PA}{QPA: 4.3}
+%    {}{High School Diploma}
+
+\section{Skills}
+  \cvline{Languages:}{Python, OCaml, SML, Java, C, C\#, bash, JavaScript, HTML, \LaTeX}
+  \cvline{Libraries:}{ROS, Django, Bootstrap, Qt}
+
+\section{Work Experience}
+  \cventry{Summer 2015}{Software Engineering Intern}{WhatsApp}
+    {Mountain View, CA}{}{
+      \begin{itemize}
+         \item Worked on the Windows Phone team implementing networking
+           protocols and improving reliability
+%        \item Implemented the HTTP chunking protocol to route traffic through
+%          a web proxy
+      \end{itemize}
+    }
+\section{Teaching Experience}
+  \cventry{Fall 2014 - Spring 2015}{Teaching Assistant}
+    {15-122 Principles of Imperative Computation}{}{}
+    {
+      \begin{itemize}
+        \item Independently taught weekly recitations on fundamental data
+          structures and algorithms
+      \end{itemize}
+    }
+  \cventry{Fall 2014, Fall 2015}{Teaching Assistant}{15-131 Great Practical
+    Ideas in Computer Science}{}{}
+    {
+      \begin{itemize}
+        \item Periodically lectured about 90 freshmen on bash, text editors,
+          and other tools for computer scientists
+      \end{itemize}
+    }
+  \cventry{Summer 2014}{Teaching Assistant}{15-110 Principles of Computing}{}{}
+    {
+      \begin{itemize}
+        \item Prepared and gave a 5-10 minute daily lecture on
+          introductory computer science topics
+        \item Taught daily lab section of about 30 students, and held daily
+          office hours
+      \end{itemize}
+    }
+  \cventry{Spring 2014 - Present}{Peer Tutor}{CMU Academic Development}
+    {Pittsburgh, PA}{}{
+    \begin{itemize}
+      \item Assisted with homework and explained material from various courses
+        on a weekly basis
+    \end{itemize}
+    }
+
+\section{Research Projects (CORAL Research Group, Professor Manuela Veloso)}
+  \cventry{Summer 2013}{Robot UI}{}{}{}{
+    \begin{itemize}
+      \item Designed and coded a new UI for the CoBot mobile service robots
+        using ROS
+      \item Implemented in a linux touch interface using Python and Qt
+      \item Gained experience working with large foreign code bases and using
+        third party libraries
+    \end{itemize}}
+  \href{http://data.cobotrobots.com}{
+    \cventry{Summer 2014}{Robot Log Explorer Site}{data.cobotrobots.com}{}{}
+    {
+      \begin{itemize}
+        \item Implemented a script to parse log data from CoBot mobile service
+          robots into a database
+        \item Designed a website using this database to search logs across many
+          categories including coordinates visited, and to display and graph the
+          results
+        \item Gained experience learning new languages and tools and creating
+          custom algorithms
+      \end{itemize}}
+  }
+%  \cventry{Fall 2014 - Present}{Quadcopter Mobile Service Robot}{}{}{}{
+%    \begin{itemize}
+%      \item Working to adapt the existing grounded CoBot mobile service robots
+%        to a new quadcopter platform
+%      \item Researching the issues which arise when migrating robots to a new
+%        physical platform
+%    \end{itemize}}
+
+\section{Projects}
+  \href{http://ait.michaeljamesmurphy.com}{
+    \cventry{Fall 2014}{Adaptive Interval Tutor}{ait.michaeljamesmurphy.com}{}{}
+    {
+      \begin{itemize}
+        \item Worked with three people to create a web app to train users' ear
+          for musical intervals
+        \item Designed a probabilistic intelligent tutoring system to add
+          adaptive difficulty
+      \end{itemize}
+    }
+  }
+
+%\section{Honors}
+%  \cvline{Spring 2014}{School of Computer Science Dean's List}
+\end{document}
