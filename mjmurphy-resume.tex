@@ -19,7 +19,7 @@
 % For ensuring 1 in margin:
 %\usepackage[left=1in, right=.9in, top=.5in, bottom=.4in]{geometry}
 
-\setlength{\hintscolumnwidth}{2cm} % Shrinks width of left column
+\setlength{\hintscolumnwidth}{2.1cm} % Shrinks width of left column
 \AtBeginDocument{\recomputelengths}
 
 % Character encoding
@@ -34,14 +34,18 @@
 % Suppress automatic page numbering
 \nopagenumbers{}
 
+% Hyperref slightly indents hrefs unless colorlinks is true
+% Work around it by setting the color to black
+\AfterPreamble{\hypersetup{colorlinks=true, urlcolor=black}}
+
 %------------------------------------------
 
 % Personal Information
 \name{Michael James}{Murphy}
-%\address{2537 Clubhouse Drive}{Wexford, PA 15090}
-%\address{Carnegie Mellon University SMC 3373}{Pittsburgh, PA 15289}
+%\address{1613 Chapala St, Apt B}{Santa Barbara, CA 93101}
+%\address{30 W Sola St}{Santa Barbara, CA 93101}
 \phone[mobile]{(724) 713-9797}
-\email{mjmurphy@cmu.edu}
+\email{mjmurphy@alumni.cmu.edu}
 %\homepage{}
 
 %\title{Michael J Murphy's Resume}
@@ -61,44 +65,45 @@
 \section{Education}
   \href{http://coursecatalog.web.cmu.edu/schoolofcomputerscience/#curriculum-b.s.incomputerscience}
   {
-    \cventry{May 2017}{Carnegie Mellon University}{Pittsburgh, PA}{QPA: 3.6}{}
+    \cventry{August 2017}{Carnegie Mellon University}{Pittsburgh, PA}{QPA: 3.2}{}
       {Bachelors of Science in Computer Science, Minor in Music Technology}
-    \cvline{Selected Coursework:}{
-            Compiler Design,
-            Machine Learning,
-            Foundations of Programming Languages,
-            Program Analysis,
-            Probability and Computing,
-            %Introduction to Computer Systems,
-            %Great Theoretical Ideas in Computer Science,
-            %Parallel and Sequential Data Structures and Algorithms,
-            %Principles of Functional Programming,
-            %Principles of Imperative Computation
-            % --- Music courses ---
-            Production Audio,
-            Electronic and Computer Music,
-            %Sound Recording,
-            Multitrack Recording,
-            Editing and Mastering,
-            Solfege,
-            Harmony,
-            Eurythmics
-            }
+    \cvline{Selected Coursework:}
+      {
+        Compiler Design,
+        Machine Learning,
+        Foundations of Programming Languages,
+        Program Analysis,
+        Probability and Computing,
+        %Introduction to Computer Systems,
+        %Great Theoretical Ideas in Computer Science,
+        %Parallel and Sequential Data Structures and Algorithms,
+        %Principles of Functional Programming,
+        %Principles of Imperative Computation
+        % --- Music courses ---
+        Production Audio,
+        Electronic and Computer Music,
+        %Sound Recording,
+        Multitrack Recording,
+        Editing and Mastering,
+        Solfege,
+        Harmony,
+        Eurythmics
+      }
   }
 %  \cventry{June 2013}{North Allegheny Senior High School}{Wexford, PA}{QPA: 4.3}
 %    {}{High School Diploma}
 
 \section{Skills}
-  \cvline{Languages:}{Python, OCaml, SML, Java, C, C\#, bash, JavaScript, HTML, \LaTeX}
-  \cvline{Libraries:}{Jane Street Core, ROS, Django, Bootstrap, Qt}
+  \cvline{Languages:}{Python, JavaScript, HTML, OCaml, SML, C, Java, bash, \LaTeX}
+  \cvline{Libraries:}{Vue, Django, Bootstrap, Jane Street Core, ROS, Qt}
   \cvline{Audio:}{Pro Tools, Finale, Reason, Logic}
 
 \section{Work Experience}
-  \cventry{Starting Fall 2017}{Embedded Software Consultant Engineer}
-  {Green Hills Software}{Santa Barbara, CA}{}{
+  \cventry{August 2017 - Present}{Embedded Software Consultant Engineer}
+    {Green Hills Software}{Santa Barbara, CA}{}{
       \begin{itemize}
-        \item Will work to help Green Hills customers with the GHS compiler,
-          OS, IDE, and other products
+        \item Helping Green Hills customers with the GHS compiler, OS, IDE, and
+          other products
       \end{itemize}
     }
   \cventry{Summer 2015}{Software Engineering Intern}{WhatsApp}
@@ -156,9 +161,8 @@
         \item 15-150 Principles of Functional Programming: Summer 2016
       \end{itemize}
     }
-  \cventry{Spring 2014 - Present}{Peer Tutor}{CMU Academic Development}
-    {Pittsburgh, PA}{}
-    {
+  \cventry{Spring 2014 - Spring 2017}{Peer Tutor}{CMU Academic Development}
+    {Pittsburgh, PA}{}{
       \begin{itemize}
         \item Assisted with homework and explained material from various courses
           on a weekly basis
@@ -175,17 +179,19 @@
 %        third party libraries
     \end{itemize}}
   \href{http://data.cobotrobots.com}{
-    \cventry{Summer 2014}{Robot Log Explorer Site}{data.cobotrobots.com}{}{}
-    {
-      \begin{itemize}
-        \item Implemented a script to parse log data from CoBot mobile service
-          robots into a database
-        \item Designed a website using this database to search logs across many
-          categories including coordinates visited, and to display and graph the
-          results
-%        \item Gained experience learning new languages and tools and creating
-%          custom algorithms
-      \end{itemize}}
+    \cventry{Summer 2014}{Robot Log Explorer Site}
+      % {data.cobotrobots.com}
+      {}{}{}{
+        \begin{itemize}
+          \item Implemented a script to parse log data from CoBot mobile service
+            robots into a database
+          \item Designed a website using this database to search logs across many
+            categories including coordinates visited, and to display and graph the
+            results
+  %        \item Gained experience learning new languages and tools and creating
+  %          custom algorithms
+        \end{itemize}
+      }
   }
 %  \cventry{Fall 2014 - Present}{Quadcopter Mobile Service Robot}{}{}{}{
 %    \begin{itemize}
@@ -212,8 +218,9 @@
 %  \cvline{Spring 2014}{School of Computer Science Dean's List}
 
 \section{Activities}
-  \cventry{Fall 2015 - Spring 2017}{Sergeant at Arms and Second Vice President}
-    {CMU KGB}{}{}
+  \href{https://thebridge.cmu.edu/organization/kgb}{
+    \cventry{Fall 2015 - Spring 2017}{Sergeant at Arms and Second Vice President}
+    {CMU KGB Social Club}{}{}
     {
       \begin{itemize}
         \item Ran games and/or events (sometimes attended by 100+ people) for
@@ -222,6 +229,6 @@
           infrastructure, and ordering shirts
       \end{itemize}
     }
+  }
 
 \end{document}
-
